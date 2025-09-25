@@ -38,20 +38,20 @@ Raw Data (BLS/BFS/DOE)  → **Alteryx Clean** (CSV workflows) → **Databricks S
 - `tableau/` – dashboard (.twbx) and screenshots  
 
 ## Dashboard
-![Dashboard Overview](tableau/screenshots/US opportunity index.jpg)  
+![Dashboard Overview](tableau/screenshots/us_opportunity_index.jpg)
 
 ## Results & Insights
 ### 1. Trends – Opportunity vs Unemployment
-![Trend – Opportunity vs Unemployment](tableau/screenshots/Trend – Opportunity vs Unemployment.jpg)  
+![Trend – Opportunity vs Unemployment](tableau/screenshots/trend_opportunity_vs_unemployment.jpg) 
 States with **lower unemployment** consistently show higher Opportunity Scores. The **West region** (CA, WA) demonstrates resilience despite fluctuations.
 ### 2. Top 10 States by Business Applications
-![Top 10 States – Business Apps](tableau/screenshots/Top 10 States by Business Apps.png)  
+![Top 10 States – Business Apps](tableau/screenshots/top10_states_business_apps.png) 
 Florida and California dominate with **1.5M** and **1.2M** new business applications, signaling **entrepreneurial growth hubs**.
 ### 3. Top 10 States by Opportunity Score
-![Top 10 States – Opportunity Score](tableau/screenshots/Top 10 States – Opportunity Score.png)  
+![Top 10 States – Opportunity Score](tableau/screenshots/top10_states_opportunity_score.png) 
 California leads with an average Opportunity Score of **0.7**, reflecting its strong balance of **jobs, entrepreneurship, and EV adoption**.
 ### 4. EV Stations vs Opportunity Score
-![EV vs Opportunity Score](tableau/screenshots/EV vs Opp Score.png)  
+![EV vs Opportunity Score](tableau/screenshots/ev_vs_opp_score.png)  
 States like **California and New Jersey** cluster at higher Opportunity Scores with robust EV readiness.  
 By contrast, **Florida** shows strong business activity but lags in EV infrastructure.
 
@@ -64,4 +64,5 @@ By contrast, **Florida** shows strong business activity but lags in EV infrastru
 ## Data Sources
 - **BLS LAUS** (state unemployment) – [BLS.gov](https://www.bls.gov/lau/)  
 - **Census BFS** (Business Applications) – [Census.gov](https://www.census.gov/econ/bfs/)  
-- **DOE/NREL AFDC** (EV stations) – [afdc.energy.gov](https://afdc.energy.gov/data_d
+- **DOE/NREL AFDC** (EV stations) – [afdc.energy.gov](https://afdc.energy.gov/data_download) 
+
