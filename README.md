@@ -1,10 +1,3 @@
-
-**A data-driven index that scores U.S. states on economic opportunity by combining unemployment, entrepreneurship, and EV infrastructure.**  
-Built with **Alteryx** (data cleaning), **Databricks** (transformation/scoring), **Snowflake** (storage), and **Tableau** (dashboard).  
-
-## Highlights
--  Cleaned raw BLS, BFS, and DOE datasets using **Alteryx**  
--  Built scoring logic in **Databricks SQL** with normalization + weighted formula  
 -  Stored final dataset in **Snowflake** and visualized with **Tableau**  
 -  Delivered interactive dashboard with **maps, KPIs, and trends**  
 
@@ -41,7 +34,7 @@ Raw Data (BLS/BFS/DOE)  → **Alteryx Clean** (CSV workflows) → **Databricks S
 ## Results & Insights
 ### 1. Trends – Opportunity vs Unemployment
 ![Trend – Opportunity vs Unemployment](tableau/screenshots/trend_opp_vs_unemp.png)
-As unemployment gradually declined from 2.0% to 1.7%, Opportunity Scores showed slight improvement, though they remained below zero overall. This suggests that lower unemploymente alone does not guarantee strong opportunity growth.
+As unemployment steadily declined from ~2.0% to 1.7% between Mar 2024 and Mar 2025, the Opportunity Score also showed a consistent upward movement. Although the score remained below zero, the positive trajectory indicates that improving labor conditions are beginning to foster better economic opportunities. This suggests that continued reductions in unemployment could push opportunity growth into stronger, positive territory.
 ### 2. Top 10 States by Business Applications
 ![Top 10 States – Business Apps](tableau/screenshots/business_apps.png)
 Florida and California dominate with **1.5M** and **1.2M** new business applications, signaling **entrepreneurial growth hubs**.
@@ -50,9 +43,7 @@ Florida and California dominate with **1.5M** and **1.2M** new business applicat
 California leads with an average Opportunity Score of **0.7**, reflecting its strong balance of **jobs, entrepreneurship, and EV adoption**.
 ### 4. EV Stations vs Opportunity Score
 ![EV vs Opportunity Score](tableau/screenshots/ev_vs_opp.png) 
-States like **California and New Jersey** cluster at higher Opportunity Scores with robust EV readiness.  
-By contrast, **Florida** shows strong business activity but lags in EV infrastructure.
-
+States with stronger EV infrastructure tend to achieve higher Opportunity Scores. For example, states with ~0.5K stations rank positively, while Florida illustrates the opposite with few stations and a low score. This clustering pattern highlights EV density as a key driver of economic opportunity, reinforcing the link between technology readiness and regional growth potential.
 
 ### Key Insights
 -  **Business growth hubs**: Florida & California lead in entrepreneurship.  
