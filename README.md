@@ -43,7 +43,7 @@ Raw Data (BLS/BFS/DOE)  → **Alteryx Clean** (CSV workflows) → **Databricks S
 ![Trend – Opportunity vs Unemployment](tableau/screenshots/trend_opp_vs_unemp.png)
 States with **lower unemployment** consistently show higher Opportunity Scores. The **West region** (CA, WA) demonstrates resilience despite fluctuations.
 ### 2. Top 10 States by Business Applications
-![Top 10 States – Business Apps](tableau/Screenshots/Top10_States_BusinessApps.png)
+![Top 10 States – Business Apps](tableau/screenshots/business_apps.png)
 Florida and California dominate with **1.5M** and **1.2M** new business applications, signaling **entrepreneurial growth hubs**.
 ### 3. Top 10 States by Opportunity Score
 ![Top 10 States – Opportunity Score](tableau/screenshots/top10_opp_score.png) 
