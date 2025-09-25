@@ -41,7 +41,7 @@ Raw Data (BLS/BFS/DOE)  → **Alteryx Clean** (CSV workflows) → **Databricks S
 ## Results & Insights
 ### 1. Trends – Opportunity vs Unemployment
 ![Trend – Opportunity vs Unemployment](tableau/screenshots/trend_opp_vs_unemp.png)
-States with **lower unemployment** consistently show higher Opportunity Scores. The **West region** (CA, WA) demonstrates resilience despite fluctuations.
+As unemployment gradually declined from 2.0% to 1.7%, Opportunity Scores showed slight improvement, though they remained below zero overall. This suggests that lower unemploymente alone does not guarantee strong opportunity growth.
 ### 2. Top 10 States by Business Applications
 ![Top 10 States – Business Apps](tableau/screenshots/business_apps.png)
 Florida and California dominate with **1.5M** and **1.2M** new business applications, signaling **entrepreneurial growth hubs**.
@@ -52,6 +52,7 @@ California leads with an average Opportunity Score of **0.7**, reflecting its st
 ![EV vs Opportunity Score](tableau/screenshots/ev_vs_opp.png) 
 States like **California and New Jersey** cluster at higher Opportunity Scores with robust EV readiness.  
 By contrast, **Florida** shows strong business activity but lags in EV infrastructure.
+
 
 ### Key Insights
 -  **Business growth hubs**: Florida & California lead in entrepreneurship.  
