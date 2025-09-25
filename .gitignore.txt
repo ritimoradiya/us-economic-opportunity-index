@@ -1,0 +1,11 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Tableau temporary/large artifacts
+tableau/*_extract*
+tableau/*_hyper*
