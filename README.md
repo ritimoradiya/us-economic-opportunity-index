@@ -1,5 +1,13 @@
--  Stored final dataset in **Snowflake** and visualized with **Tableau**  
--  Delivered interactive dashboard with **maps, KPIs, and trends**  
+# U.S. Economic Opportunity Index
+A data-driven index that scores U.S. states on economic opportunity by combining unemployment, entrepreneurship, and EV infrastructure.
+
+**Built with:** Alteryx (data cleaning), Databricks SQL (transformation/scoring), Snowflake (storage), and Tableau (dashboard).
+
+## Highlights 
+- Cleaned raw BLS, BFS, and DOE datasets using **Alteryx** 
+- Built scoring logic in **Databricks SQL** with normalization + weighted formula
+- Stored final dataset in **Snowflake** and visualized with **Tableau**  
+- Delivered interactive dashboard with **maps, KPIs, and trends**  
 
 ## Why It Matters
 Organizations across industries face the same strategic question:  
